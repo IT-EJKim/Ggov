@@ -1,0 +1,15 @@
+package egovframework.example.sample.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class DeptController {
+	@Controller
+	@RequestMapping(value="/deptWrite.do")
+	public String dept() {
+		
+		return "sample/deptWrite";
+		
+	}
+
+}
